@@ -172,7 +172,8 @@ HTML;
 
 			$longText = "Error: You are missing some external dependencies. \n"
 				. "MediaWiki now also has some external dependencies that need to be installed\n"
-				. "via composer or from a separate git repo. Please see\n"
+				. "via composer or from a separate git repo. 
+				see\n"
 				. "https://www.mediawiki.org/wiki/Download_from_Git#Fetch_external_libraries\n"
 				. "for help on installing the required components.";
 
@@ -180,7 +181,7 @@ HTML;
 			$longHtml = <<<HTML
 		MediaWiki now also has some external dependencies that need to be installed via
 		composer or from a separate git repo. Please see
-		<a href="https://www.mediawiki.org/wiki/Download_from_Git#Fetch_external_libraries">mediawiki.org</a>
+		<a href="https://www.mediawiki.org/wiki/Download_from_Git#Fetch_external_libraries">https://www.mediawiki.org/wiki/Download_from_Git#Fetch_external_libraries</a>
 		for help on installing the required components.
 HTML;
 			// phpcs:enable Generic.Files.LineLength
